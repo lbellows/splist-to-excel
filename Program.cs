@@ -45,7 +45,7 @@ namespace ExcelExport
             {
                 cc.Load(item);
                 cc.Load(item.FieldValuesAsText);
-                //////cc.Load(item.FieldValues);
+                ////////cc.Load(item.FieldValues);
                 cc.ExecuteQueryRetry();
 
                 List<string> fieldVals = new List<string>();
